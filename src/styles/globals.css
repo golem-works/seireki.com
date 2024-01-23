@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table {
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  font-size: 3dvh;
+  border: 1px solid ;
+  
+}
+
+td {
+  padding: 20px;
+}
+
+th {
+  padding: 10px;
+  color: rgb(192, 96, 40);
+}
