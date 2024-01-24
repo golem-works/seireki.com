@@ -60,7 +60,7 @@ export default function Home() {
         </div>
       </div>
       {/* selectedYear を EducationYears コンポーネントに渡す */}
-      <EducationYears birthYear={selectedYear - 6} />
+      <EducationYears birthYear={selectedYear + 1} />
       <footer className={style.footer}>
         <p>© 2024 GOLEM WORKS. All rights reserved.</p>
       </footer>
