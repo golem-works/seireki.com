@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     min-height: 200vh;
+    text-align: center;
 }
 
 
@@ -31,7 +32,7 @@
     border:1px solid #000;
 }
 
-/* フッター部分のスタイル */
+
 .footer {
     background-color: #333;
     color: white;
@@ -52,3 +53,34 @@
     padding-top: 5ch;
     color: red;
 }
+
+.result {
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: 200;
+}
+
+.linkContainer {
+    text-align: center;
+    color: blue;
+    font-weight: 300;
+    text-decoration: none;
+}
+.linkContainer :hover {
+    color: rgb(158, 135, 193);
+    font-size: 15px;
+    font-weight: 200;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration:underline 2px;
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .title {
+      font-size: 50px;
+    }
+  }
+  
+    

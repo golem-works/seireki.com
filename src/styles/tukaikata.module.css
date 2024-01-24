@@ -1,0 +1,99 @@
+
+
+.subtitle {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+.subtitle p{
+    font-size: 15px;
+    margin: 20px;
+}
+
+.tukaikataContainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border:  2px solid;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.tukaikataContainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border:  2px solid;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.tukaikataContainer3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border:  2px solid;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.linkContainer {
+    text-align: center;
+    color: blue;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 30px;
+}
+.linkContainer :hover {
+    color: rgb(158, 135, 193);
+    font-size: 15px;
+    font-weight: 200;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration:underline 2px;
+    
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (max-width:768px) {
+
+.tukaikataContainer1 {
+
+display: grid;
+margin: auto;
+text-align: center;
+border: none;
+
+}
+
+.tukaikataContainer2 {
+
+    display: grid;
+    margin: auto;
+    text-align: center;
+    border: none;
+    
+    }
+
+.tukaikataContainer3 {
+
+display: grid;
+margin: auto;
+text-align: center;
+border: none;
+
+}
+    
+}

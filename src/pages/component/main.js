@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import style from '../../styles/main.module.css';
 import EducationYears from './gakureki';
+import Tukaikata from './tukaikata'
+import Link from 'next/link';
 
 export default function Home() {
   const [selectedYear, setSelectedYear] = useState(new Date().getFullYear());
@@ -33,9 +35,17 @@ export default function Home() {
   const years = Array.from({ length: currentYear - 1925 + 1 }, (v, k) => 1925 + k);
 
   return (
+
     <div className={style.bodyContainer}> 
+
       <h1 className={style.title}>西暦変換.COM</h1>
+
+   <div className={style.linkContainer}>
+      <Link href ="/component/tukaikata">使い方</Link>
+    </div>
+
       <div className={style.mainContent}>
+
         <p className={style.text}>※変換したい西暦を選んでね</p> 
         <div className={style.container}>
           <form onSubmit={handleSubmit}>
@@ -46,7 +56,7 @@ export default function Home() {
             </select>
             <button className={style.btn} type="submit">計算</button>
           </form>
-          {japaneseEra && <div className={style.result}>{selectedYear}年は {japaneseEra}</div>}
+          {japaneseEra && <div className={style.result}>” {selectedYear}年は {japaneseEra} ”</div>}
         </div>
       </div>
       {/* selectedYear を EducationYears コンポーネントに渡す */}
